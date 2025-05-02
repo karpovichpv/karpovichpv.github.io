@@ -112,7 +112,7 @@ namespace PluginName
 			return true;
 		}
  
-		public void Stop()
+		public void Stop()
 		{
 			_followAction?.Dispose();
 		}
@@ -121,6 +121,6 @@ namespace PluginName
 ```
 
 После загрузки программы можно будет увидеть иконку плагина на главной панели.
-![](_posts/img/2025.05.02_plugin_in_program.png)
+![My helpful screenshot]({{ site.url }}/assets/2025.05.02_plugin_in_program.png)
 Вот так элегантно в пару кликов можно встроить свой плагин. Очень просто, не правда ли?
 В следующее статье пройдёмся по возможностям добавления в пользовательский интерфейс различных контролов.
