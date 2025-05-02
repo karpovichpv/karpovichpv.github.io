@@ -11,7 +11,7 @@ pin: true    # pins post to top
 math: true   # enables math formatting
 mermaid: true # enables mermaid diagrams
 image:
-  path: /_posts/img/image.jpg
+  path: /_posts/img/2025-05-02-renga_api_part_1_icon_in_renga.png
   alt: Image description
 ---
 
@@ -121,8 +121,6 @@ namespace PluginName
 ```
 
 После загрузки программы можно будет увидеть иконку плагина на главной панели.
-![](./img/2025.05.02_plugin_in_program.png)
+![](_posts/img/2025.05.02_plugin_in_program.png)
 Вот так элегантно в пару кликов можно встроить свой плагин. Очень просто, не правда ли?
 В следующее статье пройдёмся по возможностям добавления в пользовательский интерфейс различных контролов.
-
-
