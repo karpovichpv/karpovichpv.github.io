@@ -91,19 +91,19 @@ namespace PluginName
 	{
 		private ActionEventSource? _followAction;
  
-		public bool Initialize(string pluginFolder)
+		public bool Initialize(string pluginFolder)
 		{
-			IApplication app = new Renga.Application();
-			IUI ui = app.UI;
-			IUIPanelExtension panel = ui.CreateUIPanelExtension();
-			IAction button = ui.CreateAction();
-			button.ToolTip = name;
-			button.DisplayName = name;
+			IApplication app = new Renga.Application();
+			IUI ui = app.UI;
+			IUIPanelExtension panel = ui.CreateUIPanelExtension();
+			IAction button = ui.CreateAction();
+			button.ToolTip = name;
+			button.DisplayName = name;
  
-			_followAction = new ActionEventSource(button);
-			_followAction.Triggered += (sender, args) =>
+			_followAction = new ActionEventSource(button);
+			_followAction.Triggered += (sender, args) =>
 			{
-				ui.ShowMessageBox(MessageIcon.MessageIcon_Info, $"{name} plugin", "Hello world!");
+				ui.ShowMessageBox(MessageIcon.MessageIcon_Info, $"{name} plugin", "Hello world!");
 			};
   
 			panel.AddToolButton(button);
