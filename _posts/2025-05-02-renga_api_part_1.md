@@ -48,12 +48,12 @@ image:
 
 ```xml
 <ItemGroup>
-		<COMFileReference Include="..\..\..\RengaSDK\tlb\RengaCOMAPI.tlb">
+		<COMFileReference Include="..\..\..\RengaSDK\tlb\RengaCOMAPI.tlb">
 		</COMFileReference>
 	</ItemGroup>
  
 	<ItemGroup>
-	  <Reference Include="Renga.NET8.PluginUtility">
+	  <Reference Include="Renga.NET8.PluginUtility">
 	    <HintPath>..\..\..\RengaSDK\Net\Renga.NET8.PluginUtility.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
@@ -82,16 +82,16 @@ C:\Program Files\Renga *\Plugins\PluginName
 Третье написать сам код. Что-то типа такого:
 
 ```c#
-using Renga;
-using System.Reflection;
+using Renga;
+using System.Reflection;
  
-namespace PluginName
+namespace PluginName
 {
-	public class Plugin : IPlugin
+	public class Plugin : IPlugin
 	{
-		private ActionEventSource? _followAction;
+		private ActionEventSource? _followAction;
  
-		public bool Initialize(string pluginFolder)
+		public bool Initialize(string pluginFolder)
 		{
 			IApplication app = new Renga.Application();
 			IUI ui = app.UI;
@@ -109,7 +109,7 @@ namespace PluginName
 			panel.AddToolButton(button);
 			ui.AddExtensionToPrimaryPanel(panel);
  
-			return true;
+			return true;
 		}
  
 		public void Stop()
