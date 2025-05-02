@@ -1,4 +1,4 @@
 ---
-title: Welcome to my bim dev blog
+title: Áכמד ןנמדנאללטסעא ג ספונו BIM
 ---
 
