@@ -93,14 +93,14 @@ namespace PluginName
  
 		public bool Initialize(string pluginFolder)
 		{
-			IApplication app = new Renga.Application();
+			IApplication app = new Renga.Application();
 			IUI ui = app.UI;
 			IUIPanelExtension panel = ui.CreateUIPanelExtension();
 			IAction button = ui.CreateAction();
 			button.ToolTip = name;
 			button.DisplayName = name;
  
-			_followAction = new ActionEventSource(button);
+			_followAction = new ActionEventSource(button);
 			_followAction.Triggered += (sender, args) =>
 			{
 				ui.ShowMessageBox(MessageIcon.MessageIcon_Info, $"{name} plugin", "Hello world!");
