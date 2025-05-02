@@ -122,7 +122,7 @@ namespace PluginName
 
 После загрузки программы можно будет увидеть иконку плагина на главной панели.
 
-![My helpful screenshot]({{ karpovichpv.github.io }}/assets/2025.05.02_plugin_in_program.png)
+![My helpful screenshot](https://karpovichpv.github.io/assests/img/2025-05-02-renga_api_part_1_icon_in_renga.png)
 
 Вот так элегантно в пару кликов можно встроить свой плагин. Очень просто, не правда ли?
 В следующее статье пройдёмся по возможностям добавления в пользовательский интерфейс различных контролов.
