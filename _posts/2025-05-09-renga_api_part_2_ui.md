@@ -42,7 +42,7 @@ image:
 ```c#
 public bool Initialize(string pluginFolder)
 {
-	Application app = new();
+	Application app = new();
 	IUI ui = app.UI;
  
 	string icoPath = Path.GetFullPath(Path.Combine(pluginFolder, "ico.png"));
@@ -67,7 +67,7 @@ private IAction CreateAction(IUI ui, string displayName)
 	action.Icon = _icon;
  
 	ActionEventSource events = new(action);
-	events.Triggered += (s, e) =>
+	events.Triggered += (s, e) =>
 	{
 		ui.ShowMessageBox(MessageIcon.MessageIcon_Info, "Plugin message", displayName + " Handler");
 	};
