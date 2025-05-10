@@ -26,10 +26,14 @@ image:
 
 Выше описанные элементы могут быть размещены в либо в главной панели или в панели действий сбоку (см. скриншот).
 
+![Renga API. Extension panel buttons](https://karpovichpv.github.io/assests/img/2025-05-09_renga_api_part_2_ui_1.png)
+
 Также возможно добавление своих элементов в контекстное меню. Это может быть:
 
 1. **ContextItem** - просто элемент, на который можно нажать
 2. **NodeItem** - можно организовать, что-то типа выпадающего списка
+
+![Renga API. Context menu buttons](https://karpovichpv.github.io/assests/img/2025-05-09_renga_api_part_2_ui_2.png)
 
 Давайте кратко глянем из чего состоит создание одной кнопки
 
