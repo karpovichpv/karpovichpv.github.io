@@ -17,6 +17,7 @@ image:
   path: /_posts/img/2025-05-02-renga_api_part_1_icon_in_renga.png
   alt: Image description
 ---
+
 # Renga API. Заметки. Часть 2. Встраивание в UI
 
 В RengaAPI, есть возможность встраивать базовые элементы UI в интерфейс. Это различного вида кнопки и меню. На самом деле их не очень много:
