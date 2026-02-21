@@ -21,7 +21,7 @@ image:
 
 # Новый плагин 
 
-Разработал плагин под названием Inspector для BIM системы Renga. Цель более быстрое понимание модели open api непосредственно в программе. Выбрал объект - получил результат, какой тип, его свойства, методы, поля. Фактически данный плагин является аналогом всем известных плагинов для AutoCAD [ARXDBG и MGDDBG](https://adn-cis.org/forum/index.php?topic=7274.0), или [RevitLookup](https://github.com/lookup-foundation/RevitLookup) для Revit, или [Tekla Lookup](http://github.com/karpovichpv/lookup) для TeklaStructures. 
+Разработал плагин под названием Inspector для BIM системы Renga. Цель разработки - дать программисту возможность более быстро вникать модели api непосредственно в программе и для конкретного объекта. Выбрал объект - получил результат: тип, свойства, методы, поля. Фактически данный плагин является аналогом всем известных решений для AutoCAD [ARXDBG и MGDDBG](https://adn-cis.org/forum/index.php?topic=7274.0), или [RevitLookup](https://github.com/lookup-foundation/RevitLookup) для Revit, или [Tekla Lookup](http://github.com/karpovichpv/lookup) для TeklaStructures. 
 
 Код построен на рефлексии. Хоть API модель Renga и довольно скудна на свойства, методы, часть свойств, методов обрабатывается в коде отдельно. К ним относятся:
 
@@ -60,6 +60,6 @@ image:
 
 # Примеры использования
 
-![1](/_posts/img/2026-02-21-renga_inspector_plugin_usage_1.gif)
-![2](/_posts/img/2026-02-21-renga_inspector_plugin_usage_2.gif)
-![3](/_posts/img/2026-02-21-renga_inspector_plugin_usage_3.gif)
+![1](/assests/img/2026-02-21-renga_inspector_plugin_usage_1.gif)
+![2](/assests/img/2026-02-21-renga_inspector_plugin_usage_2.gif)
+![3](/assests/img/2026-02-21-renga_inspector_plugin_usage_3.gif)
