@@ -1,5 +1,5 @@
 ---
-title: Lookup для Tekla Structures. Report properties 
+title: Renga Inspector. Плагин исследования свойств объектов 
 date: 2026-02-21
 categories:
   - Bim API
