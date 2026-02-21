@@ -60,6 +60,6 @@ image:
 
 # Примеры использования
 
-![1](https://karpovichpv.github.io/assests/img/2026-02-21-renga_inspector_plugin_usage_1.gif)
-![2](https://karpovichpv.github.io/assests/img/2026-02-21-renga_inspector_plugin_usage_2.gif)
-![3](https://karpovichpv.github.io/assests/img/2026-02-21-renga_inspector_plugin_usage_3.gif)
+![Renga Inspector Plugin. Usage Examlple #1](https://karpovichpv.github.io/assests/img/2026-02-21-renga_inspector_plugin_usage_1.gif)
+![Renga Inspector Plugin. Usage Examlple #2](https://karpovichpv.github.io/assests/img/2026-02-21-renga_inspector_plugin_usage_2.gif)
+![Renga Inspector Plugin. Usage Examlple #3](https://karpovichpv.github.io/assests/img/2026-02-21-renga_inspector_plugin_usage_3.gif)
