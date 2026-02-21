@@ -15,7 +15,7 @@ pin: true
 math: true
 mermaid: true
 image:
-  path: /_posts/img/2026-02-21-renga_inspector_plugin_1.png
+  path: https://karpovichpv.github.io/assests/img/2026-02-21-renga_inspector_plugin_1.png
   alt: Renga Inpector plugin 
 ---
 
